@@ -50,7 +50,7 @@ while(True):
 
         hist = find_histogram(clt)
         bar = plot_colors2(hist, clt.cluster_centers_)
-
+        
         # plt.axis("off")
         # plt.imshow(bar)
         # plt.show()
